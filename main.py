@@ -44,7 +44,7 @@ cloudinary.config(
 )
 
 # InsightFace 初始化
-app_face = FaceAnalysis(name='buffalo_l', providers=['CPUExecutionProvider'])
+app_face = FaceAnalysis(name='antelopev2', providers=['CPUExecutionProvider'])  # 或 'buffalo_s'
 app_face.prepare(ctx_id=0, det_size=(640, 640))
 
 # 認證設定
